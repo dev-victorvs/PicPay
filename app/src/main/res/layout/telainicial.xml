@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="30dp"
+              android:background="#1D1E20"
+>
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:text="Contatos"
+              android:fontFamily="sans-serif"
+              android:textSize="30sp"
+              android:textStyle="bold"
+              android:textColor="#FFFFFF"
+    />
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+                android:id="@+id/et_contatos"
+                android:layout_marginTop="30dp"
+                android:padding="13dp"
+                android:hint="@string/et_search_hint"
+                android:textColorHint="#ACB1BD"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/et_search"
+                android:drawableStart="@drawable/icon_search"
+                android:imeOptions="actionSearch"/>
+
+    </ScrollView>
+
+    <ListView
+            android:id="@+id/lv_contatos"
+            android:paddingTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+    >
+
+    </ListView>
+
+</LinearLayout>

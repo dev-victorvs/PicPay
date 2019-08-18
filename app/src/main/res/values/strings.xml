@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PicpayApp</string>
+    <string name="et_search_hint">A quem você deseja pagar?</string>
+    <string name="creditcard">creditcard</string>
+    <string name="cadastre_um_cart_o_de_cr_dito">Cadastre um cartão de crédito</string>
+    <string name="n_mero_do_cart_o">Número do cartão</string>
+</resources>
